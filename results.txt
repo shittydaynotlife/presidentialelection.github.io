@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: maroon;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 60px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>TRUMP VS BIDEN</h1>
+<p style="font-size:140%;">United States Presidential Election 2020</p>
+</div>
+
+
+
+<style>
+ul {
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 50;
+  overflow: hidden;
+  background-color: #00008B;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 90px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #696969;
+}
+
+.active {
+  background-color: #00008B;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="trump.html">Trump</a></li>
+  <li><a href="#biden">Biden</a></li>
+<li><a href="#presidentialdebates">Presidential Debates</a></li>
+  <li><a href="#results">Results</a></li>
+  <li><a href="#feedback">Feedback</a></li>
+</ul>
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 15%;
+}
+
+.middle {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left" style="height:2000px;background-image:url('drawnstars.jpg'); background-repeat:repeat-y;">
+  </div>
+  <div class="column middle" style="padding:20px;text-align: justify;margin-top:20px;background-color:white;height:1500px">
+  <h1>Donald J. Trump</h1>
+
+</div>
+  </div>
+  <div class="column right" style="height:2000px;background-image:url('drawnstars.jpg'); background-repeat:repeat-y;">
+  </div>
+</div>
+
+
+
+
+</html>
